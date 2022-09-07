@@ -1,0 +1,14 @@
+version: "3.3"
+
+services:
+  fj33-eats-monolito:
+    image: fj33-eats-monolito:v1
+    ports:
+      - 8084:8084
+
+    networks:
+      - fj33
+
+networks:
+  fj33:
+    external: true
