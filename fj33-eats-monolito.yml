@@ -4,7 +4,7 @@ services:
   fj33-eats-monolito:
     image: fj33-eats-monolito:v1
     ports:
-      - 8084:8084
+      - 9000:9000
 
     networks:
       - fj33
